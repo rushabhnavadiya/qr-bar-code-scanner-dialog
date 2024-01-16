@@ -81,25 +81,7 @@ class QrBarCodeScannerDialogWeb extends QrBarCodeScannerDialogPlatform {
           border-radius: 10px;
         }
         
-        #qr-reader {
-          position: relative;
-          background: white;
-          margin: 25px;
-          border-radius: 10px;
-          border: none;
-        }
-        
         #qr-reader__filescan_input,
-        #qr-reader__camera_permission_button {
-          background: #3b99e8;
-          border: none;
-          padding: 8px;
-          border-radius: 5px;
-          color: white;
-          cursor:pointer;
-          margin-bottom: 10px;
-        }
-      
       """);
 
       final codeScript = html.ScriptElement();
